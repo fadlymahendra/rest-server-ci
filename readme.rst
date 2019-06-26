@@ -1,3 +1,15 @@
+You need to create table to run this rest server demo
+
+CREATE TABLE `mahasiswa` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nrp` char(9) NOT NULL,
+  `nama` varchar(250) NOT NULL,
+  `email` varchar(250) DEFAULT NULL,
+  `jurusan` varchar(64) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=latin1;
+
+
 ###################
 What is CodeIgniter
 ###################
